@@ -331,7 +331,6 @@ jQuery(document).ready(function () {
 });
 
 /* -------------------- Isotope --------------------- */
-
 jQuery(document).ready(function () {
 	
 	$('#portfolio-wrapper').imagesLoaded(function() {
@@ -343,6 +342,7 @@ jQuery(document).ready(function () {
 		$container.isotope({
 		// options...
 		resizable: false, // disable normal resizing
+		
 		// set columnWidth to a percentage of container width
 	  	masonry: { columnWidth: $container.width() / 12 }
 		});
