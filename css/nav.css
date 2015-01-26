@@ -1,7 +1,17 @@
+@media (max-width: 887px) {
 .navbar-brand {
+  display: none;
   float: left;
   height: 15px;
   padding: 15px 50px;
+  font-size: 18px;
+  line-height: 20px;
+}
+}
+.navbar-brand {
+  float: left;
+  height: 15px;
+  padding: 15px 5%;
   font-size: 18px;
   line-height: 20px;
 }
